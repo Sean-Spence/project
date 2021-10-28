@@ -1,0 +1,36 @@
+Package: project
+Title: Runs Three Statistical Tests
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Sean",
+           family = "Spence",
+           role = c("aut", "cre"),
+           email = "sean.spence@students.mq.edu.au",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package will run statistical tests for csv file that has gender, height, weight and level of physical activity. The three tests include testing if there is a linear relationship between height and weight, testing if the average height for genders are the same and if there is a relationship between gender and the level of physical activity.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Imports: 
+    ggplot2,
+    dplyr,
+    ggpubr,
+    rstatix,
+    stats,
+    methods,
+    utils,
+    magrittr,
+    broom,
+    glue,
+    patchwork,
+    rlang
+Depends: 
+    R (>= 2.10)
+Config/testthat/edition: 3
