@@ -1,0 +1,87 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# project
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of project is to do statistical tests!
+## Installation
+
+You can install the released version of project from [CRAN](https://CRAN.R-project.org) with:
+
+``` r
+install.packages("project")
+```
+
+And the development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("Sean-Spence/project")
+```
+## Example
+
+This package does statistical test to see if there is a linear relationship with height and weight, test if the mean height of male and female are the same and see if there is an association between gender and the level of physical activity. 
+
+```{r example}
+library(project)
+## basic example code
+```
+
+## My Test 1
+
+Mytest1 tests if there is any linearity between height and weight.
+
+```{r q1}
+mytest1("C:/Users/seans/Documents/University/2021\ Semester\ Two/STAT1378/Individual\ Project/Individual\ Project/project.csv")
+```
+
+To look at the documentation,
+
+```{r}
+?q1
+```
+
+## My Test 2
+
+Mytest2 tests if the mean height of males are the same as the female.
+
+```{r q2}
+mytest2("C:/Users/seans/Documents/University/2021\ Semester\ Two/STAT1378/Individual\ Project/Individual\ Project/project.csv")
+```
+
+To look at the documentation,
+
+```{r}
+?q2
+```
+
+
+## My Test 3
+
+Mytest3 tests is there is any association with gender and the level of physical activity.
+
+```{r}
+mytest3("C:/Users/seans/Documents/University/2021\ Semester\ Two/STAT1378/Individual\ Project/Individual\ Project/project.csv")
+```
+
+To look at the documentation
+
+```{r}
+?q3
+```
+
